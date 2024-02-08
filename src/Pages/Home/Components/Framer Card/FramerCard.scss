@@ -1,0 +1,48 @@
+.fram-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    .img-card {
+        width: 210px;
+        height: 460px;
+        border: 1px solid rgba(128, 128, 128, 0.473);
+        border-radius: 18px;
+
+        img {
+            object-fit: cover;
+            border-radius: 18px;
+        }
+    }
+
+    .vid-card {
+        width: 310px;
+        height: 460px;
+        border: 1px solid gray;
+        border-radius: 18px;
+        transition: 0.5s;
+
+        video {
+            object-fit: cover;
+            border-radius: 18px;
+        }
+    }
+}
+
+.fram-card-container:hover .vid-card {
+    width: 1200px !important;
+    transition: 0.6s;
+}
+
+@media only screen and (max-width: 1200px) {
+    .fram-card-container:hover .vid-card {
+        width: 700px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fram-card-container:hover .vid-card {
+        width: 500px !important;
+    }
+}

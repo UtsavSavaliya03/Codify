@@ -1,0 +1,24 @@
+.benefits-card-container {
+    .benefits-card {
+        border: 1px solid transparent;
+        border-radius: 14px;
+
+        .img-wrapper {
+            min-height: 210px;
+            max-height: 210px;
+
+            img {
+                cursor: grab;
+            }
+        }
+
+        .title {
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        .description {
+            font-size: 16px;
+        }
+    }
+}

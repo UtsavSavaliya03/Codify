@@ -1,0 +1,326 @@
+.home-container {
+    
+    /* ------ Header ------ */
+    .header-container {
+        .title {
+            font-size: 26px !important;
+        }
+    }
+
+    /* ------ Power by Framer - Container ------ */
+    .power-by-framer-container {
+
+        .border-wrapper {
+            background-color: #1a1a1a;
+        }
+
+        .off-white-bg {
+            background-color: #f1f8e9;
+            border-top-left-radius: 34px;
+            border-top-right-radius: 34px;
+        }
+
+        .power-wrapper {
+            text-align: center;
+            width: 50%;
+            margin: auto;
+        }
+
+        .title-tag {
+            font-weight: 500;
+            border: 1px solid rgb(101, 101, 101);
+            border-radius: 16px;
+        }
+
+        .title {
+            font-size: 46px;
+            font-weight: 700;
+        }
+
+        .description {
+            font-size: 20px;
+        }
+    }
+
+    /* ------ Benefits - Container ------ */
+    .benefits-container {
+        .title-tag {
+            font-weight: 500;
+            border: 1px solid rgb(221 221 221);
+            border-radius: 16px;
+        }
+
+        .benefits-wrapper {
+            text-align: center;
+            width: 50%;
+            margin: auto;
+        }
+
+        .title {
+            font-size: 46px;
+            font-weight: 700;
+        }
+
+        .description {
+            font-size: 20px;
+        }
+    }
+
+    /* ------ Our services - Container ------ */
+    .our-services-container {
+        .title-tag {
+            font-weight: 500;
+            border: 1px solid rgb(221 221 221);
+            border-radius: 16px;
+        }
+
+        .service-title-wrapper {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 46px;
+            font-weight: 700;
+            line-height: 58px;
+        }
+
+        .description {
+            font-size: 20px;
+            color: rgb(87, 87, 87);
+        }
+    }
+
+    /* ------ Navigating Success - Container ------ */
+    .navigating-success-container {
+        .title-tag {
+            font-weight: 500;
+            border: 1px solid rgb(221 221 221);
+            border-radius: 16px;
+        }
+
+        .title {
+            font-size: 46px;
+            font-weight: 700;
+            line-height: 58px;
+        }
+
+        .description {
+            font-size: 20px;
+            color: rgb(87, 87, 87);
+        }
+    }
+
+    /* ------ Project Info - Container ------ */
+    .project-info-container {
+        background-color: #1a1a1a;
+
+        .title {
+            color: white;
+            font-size: 46px;
+            font-weight: 600;
+            width: 50%;
+        }
+
+        .description {
+            color: rgb(142 142 142);
+            font-size: 20px;
+            width: 40%;
+        }
+    }
+
+    /* ------ Happy Customers - Container ------ */
+    .customers-container {
+
+        text-align: center;
+
+        .customers-wrapper {
+            width: 40%;
+            margin: auto;
+        }
+
+        .title {
+            font-size: 46px;
+            font-weight: 700;
+        }
+
+        .description {
+            font-size: 20px;
+        }
+    }
+
+    /* ------ Your Growth - Container ------ */
+    .growth-container {
+
+        .title-tag {
+            font-weight: 500;
+            border: 1px solid rgb(221 221 221);
+            border-radius: 16px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 46px;
+            font-weight: 700;
+        }
+
+        .design-guaranteed-box {
+            display: flex;
+            border-radius: 16px;
+            background-color: #f6faf1;
+            border: 1px solid #e7efdd;
+
+            .check-mark-box-wrapper {
+                height: 22px;
+                width: 22px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #ccd7c8;
+            }
+
+            .title {
+                font-size: 26px;
+                font-weight: 500;
+                text-align: left;
+                line-height: 26px;
+                color: #36473e;
+            }
+
+            .description {
+                font-weight: 500;
+                color: #526e5edc;
+            }
+        }
+
+        .call-description {
+            .call-title {
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 46px;
+            }
+
+            .icon-wrapper-purple {
+                height: 40px;
+                width: 40px;
+                border-top-right-radius: 50%;
+                border-top-left-radius: 50%;
+                border-bottom-right-radius: 50%;
+                background-color: #f3e5f5;
+            }
+
+            .icon-wrapper-pink {
+                height: 40px;
+                width: 40px;
+                border-top-right-radius: 50%;
+                border-top-left-radius: 50%;
+                border-bottom-right-radius: 50%;
+                background-color: #ffaa93;
+            }
+
+            .icon-wrapper-green {
+                height: 40px;
+                width: 40px;
+                border-top-right-radius: 50%;
+                border-top-left-radius: 50%;
+                border-bottom-right-radius: 50%;
+                background-color: #b1fc03;
+            }
+
+            .title {
+                font-size: 24px;
+                text-align: left;
+                font-weight: 600;
+            }
+
+            .description {
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+            }
+        }
+    }
+
+    /* ------ FAQs - Container ------ */
+    .faq-container {
+
+        .faq-wrapper {
+            width: 50%;
+            margin: auto;
+        }
+
+        .main-title {
+            text-align: center;
+            font-size: 48px;
+            font-weight: 600;
+        }
+    }
+
+    /* ------ Schedule a Call - Container ------ */
+    .call-container {
+        border-top: 1px solid #dce7ce;
+        background-color: #f1f8e9;
+        text-align: center;
+
+        .call-wrapper {
+            width: 40%;
+            margin: auto;
+        }
+
+        .title {
+            font-size: 46px;
+            font-weight: 700;
+        }
+
+        .description {
+            font-size: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .home-container {
+        .faq-wrapper {
+            width: 80% !important;
+        }
+
+        .call-wrapper,
+        .customers-wrapper,
+        .service-title-wrapper,
+        .power-wrapper,
+        .benefits-wrapper {
+            width: 60% !important;
+        }
+
+        .project-info-container {
+            .title {
+                width: 100%;
+            }
+
+            .description {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home-container {
+        .faq-wrapper {
+            width: 100% !important;
+        }
+
+        .call-wrapper,
+        .customers-wrapper,
+        .service-title-wrapper,
+        .power-wrapper,
+        .benefits-wrapper {
+            width: 100% !important;
+
+            .title {
+                line-height: 54px;
+            }
+        }
+    }
+}

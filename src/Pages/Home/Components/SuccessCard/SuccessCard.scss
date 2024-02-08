@@ -1,0 +1,22 @@
+.success-card-container {
+    .success-card {
+        border: 1px solid transparent;
+        border-radius: 14px;
+
+        img {
+            mix-blend-mode: color-burn;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1a1a1a;
+            line-height: 28px;
+        }
+
+        .description {
+            color: #1a1a1a;
+            font-size: 16px;
+        }
+    }
+}

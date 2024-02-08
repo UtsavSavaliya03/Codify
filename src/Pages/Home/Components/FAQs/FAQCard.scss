@@ -1,0 +1,30 @@
+.faq-card-container {
+    border: 1px solid rgba(178, 178, 178, 0.3);
+    cursor: pointer;
+    border-radius: 12px;
+    transition: 0.3s;
+
+    .question {
+        font-weight: 500;
+        font-size: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    .plus-icon {
+        line-height: 18px;
+    }
+
+    .answer {
+        font-size: 18px;
+        color: rgb(98, 97, 97);
+    }
+}
+
+.faq-card-container:hover {
+    background-color: rgb(242 242 242);
+    transition: 0.3s;
+}

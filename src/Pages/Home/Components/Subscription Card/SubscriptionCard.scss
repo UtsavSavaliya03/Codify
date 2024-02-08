@@ -1,0 +1,72 @@
+.subscription-card-container {
+    .card-light {
+        border: 1px solid rgb(221 221 221);
+        border-radius: 16px;
+
+        .time-tag {
+            font-weight: 500;
+            color: #565656;
+        }
+
+        .price-tag {
+            font-size: 36px;
+            font-weight: 700;
+
+            span {
+                font-size: 26px;
+            }
+        }
+
+        .check-mark-wrapper {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background-color: #dedede;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .service-point {
+            color: #767676;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+
+    .card-dark {
+        border-radius: 16px;
+        background-color: black;
+
+        .time-tag {
+            font-weight: 500;
+            color: #b1fc03;
+        }
+
+        .price-tag {
+            font-size: 36px;
+            font-weight: 700;
+            color: white;
+
+            span {
+                font-size: 26px;
+            }
+        }
+
+        .check-mark-wrapper {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background-color: #384716;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .service-point {
+            color: #d1d1d1;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+}

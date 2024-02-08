@@ -1,0 +1,73 @@
+.footer-container {
+    background-color: rgb(26 26 26);
+
+    .footer-top-belt {
+        background-color: rgb(177 252 3);
+
+        .title {
+            color: black;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+
+    .title {
+        color: white;
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .descriptions {
+        color: rgb(142 142 142);
+    }
+
+    .social-icon-wrapper {
+        background-color: #212121;
+        border-radius: 50%;
+        line-height: 18px;
+        height: 34px;
+        width: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        svg path {
+            fill: red !important;
+        }
+
+        img {
+            margin: 0px;
+            padding: 0px;
+            height: 18px;
+            width: 18px;
+        }
+    }
+
+    .footer-link {
+        .title {
+            color: rgb(142 142 142);
+            font-size: 16px;
+        }
+
+        .link {
+            color: white;
+            transition: 0.3s;
+        }
+
+        .link:hover {
+            color: rgb(177 252 3);
+            cursor: pointer;
+            transition: 0.3s;
+        }
+    }
+
+    .footer-bottom-belt {
+        background-color: rgb(33 33 33);
+
+        .tandc-line {
+            color: rgb(142 142 142);
+            cursor: pointer;
+        }
+    }
+}
