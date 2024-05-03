@@ -1,4 +1,8 @@
 .success-card-container {
+
+    max-height: 500px;
+    overflow-y: auto;
+
     .success-card {
         border: 1px solid transparent;
         border-radius: 14px;
@@ -18,5 +22,15 @@
             color: #1a1a1a;
             font-size: 16px;
         }
+    }
+}
+
+.success-card-container::-webkit-scrollbar {
+    width: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .success-card-container {
+        max-height: auto !important;
     }
 }

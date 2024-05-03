@@ -14,19 +14,19 @@ export default function SuccessCard() {
 
     return (
         <div className='success-card-container'>
-            {
-                SuccessData?.map((card, index) => (
-                    <div className='success-card my-3 p-4' style={{ backgroundColor: card?.color, borderColor: card?.border }} key={index}>
-                        <div className='d-flex'>
-                            <img className='mt-1' src={card?.img} height={20} alt='icon' />
-                            <div className='ml-3'>
-                                <p className='title'>{card?.title}</p>
-                                <p className='description m-0'>{card?.description}</p>
+                {
+                    SuccessData?.map((card, index) => (
+                        <div className='success-card my-3 p-4' style={{ backgroundColor: card?.color, borderColor: card?.border }} key={index}>
+                            <div className='d-flex'>
+                                <img className='mt-1' src={card?.img} height={20} alt='icon' />
+                                <div className='ml-3'>
+                                    <p className='title'>{card?.title}</p>
+                                    <p className='description m-0'>{card?.description}</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                ))
-            }
+                    ))
+                }
         </div>
     )
 }
